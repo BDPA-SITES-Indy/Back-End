@@ -1,7 +1,8 @@
 # Back End Syllabus
 ### **Unit 0: Orientation**
 
-### _Placement Exam_
+#### _Placement Exam_
+
 
 ### **Unit 1: Basic JavaScript** 
   *	Data types
@@ -15,9 +16,10 @@
     *	Recursive
     *	Global and local variables
     
-### _Quiz 1_
+#### _Quiz 1_
 
-###**Unit 2: Intermediate JavaScript with HTML Linkage**
+
+### **Unit 2: Intermediate JavaScript with HTML Linkage**
   *	Coding practices and Requirements
     *	Error handles
     * Commenting
@@ -26,7 +28,8 @@
   *	Document methods
   *	JSON
   
-### _Quiz 2_
+#### _Quiz 2_
+
 
 ### **Unit 3: SQL Databases**
   *	SQL data types and Select statements
@@ -35,8 +38,10 @@
   *	Joins and Stored Procedures
   *	Linking JavaScript to database
 
+
 ### **Unit 4: Development**
   *	Front and Back End Collaboration
   *	Front and Back End Collaboration
 
-### _Final Exam (cumulative)_
+
+#### _Final Exam (cumulative)_
