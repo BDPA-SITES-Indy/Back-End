@@ -3,20 +3,13 @@ Unit 0: Orientation
 
 
 Unit 1: JavaScript Basics
-
   •	Data types
     o	Variables
-  
-  •	If and Case statement
-  
+  •	If and Case statements
     o	Operators
-  
   •	For and While Loops
-  
   •	Arrays and String with methods
-  
   •	Objects
-  
   •	Functions
     o	Recursive
     o	Global and local variables
