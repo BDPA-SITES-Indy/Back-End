@@ -5,7 +5,6 @@ Unit 0: Orientation
 Unit 1: JavaScript Basics
 
   •	Data types
-  
     o	Variables
   
   •	If and Case statement
