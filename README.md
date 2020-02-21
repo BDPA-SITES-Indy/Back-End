@@ -1,4 +1,4 @@
-# Back End
+# Back End Syllabus
 Unit 0: Orientation
 
 Unit 1: JavaScript Basics
