@@ -10,11 +10,11 @@
   *	If and Case statements
     *	Operators
   *	For and While Loops
-  *	Arrays and String with methods
-  *	Objects
   *	Functions
     *	Recursive
     *	Global and local variables
+  *	Arrays and String with methods
+  *	Objects
     
 #### _Quiz 1_
 
