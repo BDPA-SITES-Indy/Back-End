@@ -1,7 +1,7 @@
 /* 1. Pick a cat from Wikipedia's List of Fictional Felines "https://en.wikipedia.org/wiki/List_of_fictional_felines"
       Create an object named mycat with properties that represent the information listed in each column on that Wikipedia page.
       (for example: the character's name, origin, and author).
-*/
+*/ Crookshanks/Hermione/Hermiones pet/Jk Rowling
 
 
 
@@ -11,7 +11,7 @@
      (Note: Don't modify your penguin-creation code that you wrote above! Do this step in a separate line of code.)
 */
 
-
+canRoar: F
 
 
 
@@ -19,17 +19,18 @@
     (Note: Again, don't modify your previous code! Do this step by writing a new line of code.)
 */
 
-
+Speak(I can only meow)
 
 
 
 /* 4. Recreate the following array by defining a Book constructor and creating 3 book objects from it:
 var library = [ 
-   {
-       author: 'Bill Gates',
-       title: 'The Road Ahead',
-       readingStatus: true
-   },
+   {                                                                               {
+       author: 'Bill Gates',                                                        author:'JK. Rowling',    
+       title: 'The Road Ahead',                                                      Title: 'Harry Potter',
+       readingStatus: true                                                            readingstatus: Fiction
+      
+   },                                                                               },
    {
        author: 'Steve Jobs',
        title: 'Walter Isaacson',
