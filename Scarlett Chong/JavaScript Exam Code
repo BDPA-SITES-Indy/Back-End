@@ -1,0 +1,80 @@
+10) Create an array that containing all seven days of the week. (3 points)
+
+let week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+console.log(week);
+
+11) Write a FOR loop that prints each day of the week from the array your created above. (4 points)
+
+for (let i = 0; i < week; i++ ){
+  console.log(week[i]);
+}
+
+12) Write a SWITCH statement for days for the week using an integer number variable with the CASE statements. (3 points) EX: 1 – Sunday, 2 – Monday … 7 - Saturday
+
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+
+13) Add a method to the object person called display that prints out the object’s properties in the following format (4 points): “5566 Doe, John 50yrs”
+
+var person = {
+  	firstName: "John",
+  	lastName : "Doe",
+  	id  : 5566,
+  	age : 50
+  	fullName : function() {
+        		return this.firstName + " " + this.lastName;
+            person.id + " " + lastName + " " + firstName + " " + age;
+  	}
+};
+
+
+
+14) Write a recursive function takes one parameter and prints hello the number of times designated by the parameter before printing goodbye (6 points): Example: hello(2);  would return “Hello Hello Goodbye”
+
+function hello(2)  {
+    console.log('hello');
+    hello();
+    console.log('goodbye');
+}
+
+
+
+15) Write an object called House that has 4 properties streetAddress, zipCode, ownerLastName, yearBuilt.
+The House object has two methods ageOfHouse and isLocatedInIndiana.
+ Find the age of the home using the Date object methods and the year built.
+ For the isLocatedInIndiana  method, all Indiana zip codes are between 46001 and 47997.
+ Finally, create array called town that has 3 or more House objects within it. (10 point)
+
+ var house = {
+    streetAddress:"215 East, 164th St.",
+    zipCode:"46268",
+    ownerLastName:"Chong",
+    yearbuilt:"1980",
+    ageOfHouse: function() {
+      return this.ageOfHouse + " " + this.yearBuilt;}
+    isLocatedInIndiana: function() {
+      return this.streetAddress + " " + this.zipCode;}
+  };
+
+ var house = ["zipCode", "streetAddress", "yearBuilt"]
+  console.log(house);
