@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | SIGN IN</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+		<style>
+			body {font-family: Arial, Helvetica, sans-serif;}
+			form {border: 3px solid #f1f1f1;}
+
+			input[type=text], input[type=password] {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  box-sizing: border-box;
+			}
+
+			button {
+			  background-color: #56CCF2;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  cursor: pointer;
+			  width: 100%;
+			}
+
+			button:hover {
+			  opacity: 0.8;
+			}
+
+			.container {
+			  padding: 16px;
+			}
+
+			span.psw {
+			  float: right;
+			  padding-top: 16px;
+			}
+
+			/* Change styles for span and cancel button on extra small screens */
+			@media screen and (max-width: 300px) {
+			  span.psw {
+				 display: block;
+				 float: none;
+			  }
+			}
+		</style>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">The Generics</h1>
+        </header>
+
+        <section class="content-section container">
+			<h2>Sign In</h2>
+			<form id="form">
+			  <div class="container">
+				<label for="uname"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="password" required>
+					
+				<button type="submit">Login</button>
+				<a href="signUP.html">Don't have an account? Click Here!</a>
+			  </div>
+			</form>
+		</section>
+        
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">The Generics</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
